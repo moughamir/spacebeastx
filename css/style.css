@@ -36,25 +36,25 @@ html {
   color: #FFF;
 }
 .popup .left .twitter:before {
-  background: #4b9bd8 url("http://nerdordie.com/wp-content/uploads/2015/11/twitter.png") no-repeat 10px 10px;
+  background: #4b9bd8 url("//nerdordie.com/wp-content/uploads/2015/11/twitter.png") no-repeat 10px 10px;
 }
 .popup .left .facebook:before {
-  background: #3a5795 url("http://nerdordie.com/wp-content/uploads/2015/11/facebook.png") no-repeat 10px 10px;
+  background: #3a5795 url("//nerdordie.com/wp-content/uploads/2015/11/facebook.png") no-repeat 10px 10px;
 }
 .popup .left .youtube:before {
-  background: #ec2727 url("http://nerdordie.com/wp-content/uploads/2015/11/youtube.png") no-repeat 10px 10px;
+  background: #ec2727 url("//nerdordie.com/wp-content/uploads/2015/11/youtube.png") no-repeat 10px 10px;
 }
 .popup .left .paypal:before {
-  background: #005082 url("http://nerdordie.com/wp-content/uploads/2015/11/paypal.png") no-repeat 10px 10px;
+  background: #005082 url("//nerdordie.com/wp-content/uploads/2015/11/paypal.png") no-repeat 10px 10px;
 }
 .popup .left .twitch:before {
-  background: #6542a6 url("http://nerdordie.com/wp-content/uploads/2015/11/twitch.png") no-repeat 10px 10px;
+  background: #6542a6 url("//nerdordie.com/wp-content/uploads/2015/11/twitch.png") no-repeat 10px 10px;
 }
 .popup .left .deviantart:before {
-  background: #05cc47 url("http://nerdordie.com/wp-content/uploads/2016/03/deviantart.png") no-repeat 10px 10px;
+  background: #05cc47 url("//nerdordie.com/wp-content/uploads/2016/03/deviantart.png") no-repeat 10px 10px;
 }
 .popup .left .discord:before {
-  background: #7289da url("https://discordapp.com/assets/28174a34e77bb5e5310ced9f95cb480b.png") no-repeat 10px 10px;
+  background: #7289da url("//discordapp.com/assets/28174a34e77bb5e5310ced9f95cb480b.png") no-repeat 10px 10px;
   background-size: 42px 42px;
 }
 .popup .right {

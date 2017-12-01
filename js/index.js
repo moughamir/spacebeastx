@@ -45,10 +45,10 @@ var settings = {
     //
 
     // Time each network animation takes in seconds
-    aTime: 4,
+    aTime: 8,
 
     // The delay for the animation cycle to restart in seconds
-    pauseTime: 30
+    pauseTime: 15
   }
 };
 
