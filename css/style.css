@@ -3,7 +3,7 @@ html {
 }
 
 #popup-container {
-  width: 470px;
+  width: 328px;
   height: 60px;
   position: absolute;
   top: 50%;
@@ -13,7 +13,7 @@ html {
 }
 
 .popup {
-  width: 470px;
+  width: 328px;
   height: 60px;
   background: #fCfCfC;
   display: none;
@@ -60,7 +60,7 @@ html {
 .popup .right {
   position: relative;
   height: 60px;
-  width: 400px;
+  width: 257px;
   float: left;
   color: #101010;
   padding-left: 10px;
@@ -113,11 +113,11 @@ html {
     border-bottom-right-radius: 60px;
   }
   45% {
-    width: 470px;
+    width: 328px;
     border-radius: 3px;
   }
   100% {
-    width: 470px;
+    width: 328px;
     border-radius: 1px;
   }
 }
