@@ -1,4 +1,4 @@
-var username = "RedAsMay";
+var username = "SpaceBeastX";
 var settings = {
 
   // Simply change the name in quotes with your name
@@ -14,10 +14,6 @@ var settings = {
     facebookUsername: username,
     // Youtube Name
     youtubeUsername: username,
-
-    // Deviant Art Network Name
-    deviantartUsername: "LaVitaArts",
-
     // Discord Network Name
     discordUsername: username
 
@@ -33,7 +29,7 @@ var settings = {
     enableTwitter: 1,
 
     // Enable Facebook
-    enableFacebook: 1,
+    enableFacebook: 0,
 
     // Enable YouTube
     enableYoutube: 1,
@@ -68,13 +64,13 @@ var settings = {
 // No need to go any further!
 
 // Load Social Network Names
-$(".popup .right span").each(function() {
+$(".popup .right span").each(function () {
   var socialName = settings.social[$(this).data('name')];
   $(this).append(socialName);
 });
 
 // Load Social Popup
-$(".popup").each(function() {
+$(".popup").each(function () {
   var supporterEnable = settings.popup[$(this).data('box')],
     boxName = $(this).data('box');
 
@@ -101,7 +97,7 @@ function animatePopup() {
   }
   popups.eq(i).addClass("show-popup")
     .delay(settings.popup.aTime * 1000)
-    .queue(function() {
+    .queue(function () {
       $(this).removeClass("show-popup");
       $(this).dequeue();
       if (i == popups.length) {
